@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    height: 100%;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.avatar_home {
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 100%;
+    width: 300px;
+}
+
+.avatar_about {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+
+}
+
+.template_konten {
+    margin-left: 20%;
+    display: flex;
+    height: 100%;
+    padding: 10vh 10vw;
+    background-color: black;
+}
+
+.konten_home {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 15%;
+    
+}
+
+.nama_home {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;
+    font-size: 50;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    width: 25%;
+    background-color: #000000;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+.nav_menu {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+  }
+  
+/*   
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+  
+a.nav_menu:hover {
+    background-color: #555;
+    color: white;
+  }
+
+.nav_menu_div {
+      margin-top: 50%;
+  }
